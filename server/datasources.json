@@ -2,15 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "mongoDs": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "getting_started_intermediate",
-    "password": "passw0rd",
-    "name": "mongoDs",
-    "user": "demo",
-    "connector": "mongodb"
   }
 }

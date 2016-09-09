@@ -1,4 +1,5 @@
-var mongoUri = process.env.MONGODB_URI || process.env.MONGOLAB_URI ||
+var mongoUri = process.env.MONGODB_URI || 
+  process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL;
 
 module.exports = {
