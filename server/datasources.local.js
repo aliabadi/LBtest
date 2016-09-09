@@ -3,8 +3,7 @@ var mongoUri = process.env.MONGODB_URI ||
   process.env.MONGOHQ_URL;
 
 module.exports = {
-  mongodb: {
-    name: "mongoDs",
+  mongoDs: {
     defaultForType: "mongodb",
     connector: "loopback-connector-mongodb",
     url: mongoUri
