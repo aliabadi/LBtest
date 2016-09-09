@@ -1,6 +1,5 @@
-var mongoUri = process.env.MONGOLAB_URI ||
-  process.env.MONGOHQ_URL ||
-  'mongodb://localhost/demo';
+var mongoUri = process.env.MONGODB_URI || process.env.MONGOLAB_URI ||
+  process.env.MONGOHQ_URL;
 
 module.exports = {
   mongodb: {
